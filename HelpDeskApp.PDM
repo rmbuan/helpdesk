@@ -1,0 +1,103 @@
+[Root]
+Most Recent Package=Help Desk Application
+
+
+[Package|Help Desk Application|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VBMidterm\setup
+
+[Package|Help Desk Application|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Help Desk Application|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Help Desk Application|Files Found]
+
+[Package|Help Desk Application|Files Released]
+
+[Package|Help Desk Application|Missing Dependency Information]
+
+[Package|Help Desk Application|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+
+[Package|Help Desk Application|Files Added]
+
+[Package|Help Desk Application|Files Removed]
+
+[Package|Help Desk Application|Files In Project]
+D:\VBMidterm\Exe\HelpDeskAppv9.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT232.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Help Desk Application|Configure Registry Files]
+Applicable=No
+
+[Package|Help Desk Application|Configure Remote Servers]
+Applicable=No
+
+[Package|Help Desk Application|Install Locations]
+D:\VBMidterm\Exe\HelpDeskAppv9.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Help Desk Application|Configure Shared Files]
+Applicable=Yes
+D:\VBMidterm\Exe\HelpDeskAppv9.exe=No
+
+[Package|Help Desk Application|Distribution]
+Type=single
+Size=1.44 MB
+Title=Telanis Software Help Desk
+
+[Package|Help Desk Application|IconGroups]
+Group0=Telanis Software
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Help Desk Application|Telanis Software]
+Icon1=HelpDeskAppv9.exe
+Title1=Help Desk Application
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Help Desk Application|Package]
+PackageFolder=D:\VBMidterm\setup
+ProjectFolder=D:\VBMidterm
+ServerSideCab=
+File1=D:\VBMidterm\setup\setup.exe
+File2=D:\VBMidterm\setup\Setup.Lst
+File3=D:\VBMidterm\setup\HelpDeskAppv9.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

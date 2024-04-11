@@ -1,0 +1,8 @@
+that this software enables you to send problems to techs and admin
+that you can print with the print tab
+that you can send report in the report problem tab
+that you can send email
+that you can turn on and off this tips of the day
+This computer program is protected by  copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under law. 
+Admins can add users from the menu options and their admin tab.
+New users can login by typing unknown login names.
